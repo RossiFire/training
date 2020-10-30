@@ -1,0 +1,65 @@
+*, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	text-align:center;
+}
+#addForm{
+	flex-direction: column;
+	padding : 20px;
+	border: 2px solid black;
+	display: none;
+	margin-top: 10px;
+	text-align: center !important;
+}
+#addForm input, #addForm button{
+	margin: 7px 0px 7px 0px;
+	width: 90%;
+}
+#addForm .data{
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	margin: auto;
+}
+#addForm .data input{
+	margin: 7px 2px;
+}
+.addBtn{
+	margin-left:auto;
+	margin-right: auto;
+	border: none;
+	color: black;
+	background-color: transparent;
+	margin-left: 10px;
+	width: 32px;
+	height: 32xp;
+	font-size: 30px;
+}
+.addBtn:focus, .addBtn:active{
+	outline: none;
+}
+#input{
+	margin-top: 50px;
+	float: left;
+	margin-bottom: 5px; 
+}
+#tbCustomer, #tbMezzi{
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#tbCustomer th, #tbMezzi th{
+    padding: 5px;
+}
+
+#tbCustomer td, #tbMezzi td{
+    border-bottom: 1px solid black;
+    text-align: start;
+    padding: 5px;
+}
